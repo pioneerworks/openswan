@@ -1,9 +1,9 @@
 name             'openswan'
-maintainer       'Wanelo, Inc.'
-maintainer_email 'dev@wanelo.com'
+maintainer       'Homebase'
+maintainer_email 'dev@joinhomebase.com'
 license          'Apache 2.0'
-description      'Installs/Configures openswan'
+description      'Installs/Configures Openswan'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.5.1'
+version          '0.6.0'
 
 depends 'ipaddr_extensions', '>= 0.3.0'
