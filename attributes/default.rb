@@ -7,6 +7,8 @@ default['openswan']['private_ip_range'] = "10.55.55.5-10.55.55.100"
 default['openswan']['xl2tpd_path'] = "/etc/xl2tpd"
 default['openswan']['ppp_path'] = "/etc/ppp"
 default['openswan']['tunnel']['connections'] = {}
+
+default['openswan']['package'] = 'openswan'
 #
 # add connections in the following way:
 #
