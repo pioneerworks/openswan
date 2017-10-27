@@ -13,7 +13,6 @@ template "/etc/ipsec.conf" do
   notifies :restart, "service[ipsec]"
 end
 
-include_recipe 'openswan::_install_headers'
 include_recipe 'openswan::_enable_snat'
 
 
