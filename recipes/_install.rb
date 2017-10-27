@@ -3,7 +3,7 @@ execute 'apt-get update' do
   not_if 'ls /etc/apt/openswan_update_completed'
 end
 
-package node.openswan.package do
+package node['openswan']['package'] do
   action :install
 end
 
